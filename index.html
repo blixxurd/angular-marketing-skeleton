@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="SPAWeb">
+<head>
+
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>{{Page.title()}}</title>
+  <meta name="description" content="{{Page.title()}}">
+  <meta name="author" content="">
+  <base href="/">
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EXTERNAL CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- OUR CSS -->
+  <link rel="stylesheet" href="assets/css/app.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout -->
+  <top-nav-bar></top-nav-bar>
+
+  <div ng-view id="wrapper"></div>
+
+  <site-footer></site-footer>
+
+  <!-- End Document, Start YavaScripts-->
+  <script src="https://code.angularjs.org/1.4.8/angular.js"></script>
+  <script src="https://code.angularjs.org/1.4.8/angular-route.js"></script>
+  <script src="/assets/js/directives/Scaffolding.js"></script>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

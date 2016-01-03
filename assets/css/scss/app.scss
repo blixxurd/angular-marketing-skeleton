@@ -1,0 +1,52 @@
+/* Normalize, and load in globals + minified foundation */
+@import 'normalize';
+@import 'global';
+@import 'foundation';
+
+/* SCAFFOLDING COMPONENTS */
+@import 'components/top-bar';
+@import 'components/footer';
+
+/* MIXINS */
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#wrapper {
+	min-height: 700px;
+}
+.container {
+	padding: 20px;
+}
+
+/* Looping Video */
+.looping-video {
+	display: block;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+	position:relative;
+	height: 600px;
+	overflow:hidden;
+	.blurb {
+		position:relative;
+		@include vertical-align();
+		* {
+			color: #FFF;
+		}
+	}
+  	video{
+    	width: 100%;
+    	position:absolute;
+    	z-index: -999;
+    	display:block;
+    	@include vertical-align(absolute);
+    	margin-top:-90px;
+  	}
+}
+
+
