@@ -1,6 +1,6 @@
 (function () {
     /* APP INIT*/
-	var app = angular.module('SPAWeb', ['ngRoute','ngAnimate','SPAWebScaffolding']);
+	var app = angular.module('SPAWeb', ['ngRoute','ngAnimate','firebase','SPAWebScaffolding']);
 
     /* APP CONFIG */
    	app.config(function($routeProvider, $locationProvider) {
