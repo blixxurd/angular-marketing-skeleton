@@ -5,6 +5,7 @@ A simple single page webapp using routes to emulate the look and feel of a front
   - Use HTML5 Routes in AngularJS to provide URL routing wiothout using the hashtag format.
   - Bundled with a simple express server for easy and quick local development. 
   - Lightweight, simple, and super customizeable. 
+  - Loads Dynamic Page Data using Firebase
   - Great for small marketing sites and landing pages. 
 
 ### Tech
@@ -18,6 +19,9 @@ This project uses a number of open source projects to work properly:
 *Tech Used for bundled test server...*
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework
+
+*For Dynamic Data...*
+*[Firebase] - Firebase allows us to load in dynamic data without a bulky backend. 
 
 ### Installation
 
@@ -42,7 +46,6 @@ I am actively developing this for my own use and will be updating this repo on o
 
 ### Todos
  - More vanilla modules (Mailchimp, Facebook, Twitter Feed, etc)
- - Dynamic Page Data via Parse.com or other service
  - Create an npm install manifest file
  - More Comments
 
@@ -51,6 +54,7 @@ I am actively developing this for my own use and will be updating this repo on o
 
    [@whysoaaron]: <http://twitter.com/whysoaaron>
    [node.js]: <http://nodejs.org>
+   [Firebase]: <http://firebase.com>
    [Zurb Foundation 6]: <http://foundation.zurb.com/>
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
