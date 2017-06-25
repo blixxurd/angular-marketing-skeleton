@@ -1,0 +1,10 @@
+{
+  "name"         : "angular-marketing-skeleton",
+  "version"      : "1.0.0",
+  "description"  : "Basic frontend website using Angular Routes.",
+  "main"         : "server.js",
+  "author"       : "Aaron Bartholomew",
+  "dependencies" : {
+    "express"    : "latest"
+  }
+}

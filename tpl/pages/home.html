@@ -17,12 +17,7 @@
    <hr>
    <div class="row">
    	<h4>What people are saying</h4>
-   	<p>The data below is loaded from Firebase - it is dynamic data, not stored on our server.</p>
-   	<ul id="firebaseExample" class="example-firebase-data">
-	  <li ng-repeat="data in page_data">
-	    <strong class="example-chat-username">{{ data.from }} says: </strong>
-	    <em>"{{ data.body }}"</em>
-	  </li>
-	</ul>
+   	{{page_data.body}}
+    {{Page}}
    </div>
  </div>
